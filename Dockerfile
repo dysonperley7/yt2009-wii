@@ -15,7 +15,7 @@ USER node
 
 RUN npm install
 ENV YT2009_PORT=80 \
-    YT2009_ENV=dev \
+    YT2009_ENV=prod \
     YT2009_IP=yt2009-wii-myw6.onrender.com \
     YT2009_TOKENS="dysoniscool" \
     YT2009_SSL=false \
